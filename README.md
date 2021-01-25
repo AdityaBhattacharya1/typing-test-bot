@@ -14,3 +14,5 @@ It performs memoisation by storing the next words in a list, to reduce the time 
 `cd` into the directory <br>
 `npm install` <br>
 `node index.js`
+
+PS. To improve performance and reduce website load times, you can use an ad-blocker. (The website prioritises the rendering of ads before the main text-rendering.)
