@@ -1,6 +1,9 @@
 const puppeteer = require('puppeteer')
 
 ;(async () => {
+  // Want to run it in a browser of your choice? For instructions, visit Google Developers' article:
+  // https://developers.google.com/web/tools/puppeteer/get-started#:~:text=To%20use%20Puppeteer%20with%20a,Firefox%20Nightly%20(experimental%20support).
+  // The browser must be Chromium based for Puppeteer to function properly. It also works with Firefox Nightly (experimental support).
   const browser = await puppeteer.launch({ headless: false })
   const page = await browser.newPage()
   // Website link
