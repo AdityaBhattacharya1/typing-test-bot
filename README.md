@@ -10,9 +10,11 @@ It performs memoisation by storing the next words in a list, to reduce the time 
 
 # To clone
 
-`$ git clone https://github.com/AdityaBhattacharya1/typing-test-bot` <br>
-`cd` into the directory <br>
-`npm install` <br>
-`node index.js`
+```sh
+    git clone https://github.com/AdityaBhattacharya1/typing-test-bot
+    cd typing-test-bot
+    npm install
+    node index.js
+```
 
 PS. To improve performance and reduce website load times, you can use an ad-blocker. (The website prioritises the rendering of ads before the main text-rendering.)
